@@ -1,0 +1,85 @@
+body {
+    margin: 0 auto;
+    width: 1000px;
+
+}
+
+form {
+    display: flex;
+    gap: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border: 2px solid black;
+    text-align: center;
+    height: 30px;
+    
+}
+
+
+tr,
+td {
+    height: 30px;
+    border: 2px solid black;
+    text-align: left;
+}
+tr,td a{
+    text-decoration: none;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 30px;
+    
+}
+
+select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 450px;
+}
+
+textarea {
+    margin-top: 10px;
+
+    height: 90px;
+    width: 450px;
+}
+
+#submit {
+    width: 50px;
+    color: #fff;
+    background-color: blue;
+  
+}
+
+#reset a{
+    color: #fff;
+    text-decoration: none;
+}
+#reset {
+    height: 30px;
+    width: 50px;
+    background-color: gray;
+}
+
+#search {
+    float: right;
+}
+
+#search input {
+    border: 1px solid rgba(166, 163, 163, 0.511);
+    margin-right: 50px;
+    width: 200px;
+    border-radius: 20px;
+    
+}
